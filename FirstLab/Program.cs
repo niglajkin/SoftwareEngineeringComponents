@@ -3,11 +3,7 @@ using FirstLab;
 
 var domainNames = new[] { "microsoft.com", "google.com" };
 
-Iterator.MyAsyncMap<string, string>(
-    domainNames,
-    GetHostEntryAsync,
-    PrintResults
-);
+domainNames.AsyncMap<string, string>(GetHostEntryAsync, PrintResults);
 
 Console.ReadKey();
 
