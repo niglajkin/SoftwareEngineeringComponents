@@ -1,0 +1,14 @@
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\bin\Debug\net8.0\FirstLab.exe
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\bin\Debug\net8.0\FirstLab.deps.json
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\bin\Debug\net8.0\FirstLab.runtimeconfig.json
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\bin\Debug\net8.0\FirstLab.dll
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\bin\Debug\net8.0\FirstLab.pdb
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\FirstLab.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\FirstLab.AssemblyInfoInputs.cache
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\FirstLab.AssemblyInfo.cs
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\FirstLab.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\FirstLab.dll
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\refint\FirstLab.dll
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\FirstLab.pdb
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\FirstLab.genruntimeconfig.cache
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\ref\FirstLab.dll
