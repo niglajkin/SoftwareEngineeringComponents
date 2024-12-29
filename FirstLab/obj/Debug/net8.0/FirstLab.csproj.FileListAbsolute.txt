@@ -12,3 +12,4 @@ D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\refint\
 D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\FirstLab.pdb
 D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\FirstLab.genruntimeconfig.cache
 D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\ref\FirstLab.dll
+D:\RiderProjects\SoftwareEngineeringComponents\FirstLab\obj\Debug\net8.0\FirstLab.sourcelink.json
