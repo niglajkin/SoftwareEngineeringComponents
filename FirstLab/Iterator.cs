@@ -23,7 +23,7 @@ public static class Iterator {
         return;
         
         Action<string?, TResult?> OnElementProcessed(int index) => (errorMassage, newElement) => {
-            processedElementsCounter++;
+            var processedElementsCount = Interlocked.Increment(ref processedElementsCounter);
 
             if (errorMassage is not null) occuredErrors.Add(errorMassage);
             
@@ -32,10 +32,11 @@ public static class Iterator {
                 resultArray[index] = newElement!;
             }
 
-            var allElementsProcessed = processedElementsCounter == entryArray.Length;
+            var allElementsProcessed = processedElementsCount == entryArray.Length;
             if (allElementsProcessed) onCompleteCallback(occuredErrors, resultArray);
             
         };
+        
     }
     
 } 
