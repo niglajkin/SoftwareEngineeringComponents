@@ -2,7 +2,7 @@
 using FirstLab;
 
 var domainNames = new[] {
-    "microsoft.com", "google.com", 
+    "microsoft.com", "google.com",
     "youtube.com", "github.com"
 };
 
@@ -13,26 +13,17 @@ Console.ReadKey();
 return;
 
 void PrintResults(List<string> errorMassages, string[] ipAddresses) {
-    if (errorMassages.Count != 0) {
-        foreach (var massage in errorMassages) {
-            Console.WriteLine(massage);
+    var print = (IEnumerable<string> collection) => {
+        foreach (var element in collection) {
+            Console.WriteLine(element);
         }
-    }
-
-    else {
-        Console.WriteLine();
-
-        for (var i = 0; i < ipAddresses.Length; i++) {
-            var domainName = domainNames[i];
-            var ipAddress = ipAddresses[i];
-
-            var stringToPrint = $"{domainName} has such ip addresses:" +
-                                $"{Environment.NewLine}{ipAddress}" +
-                                Environment.NewLine;
-
-            Console.WriteLine(stringToPrint);
-        }
-    }
+    };
+    
+    print(
+        errorMassages.Count != 0
+            ? errorMassages
+            : ipAddresses
+    );
 }
 
 void GetHostEntryAsync(string hostName, Action<string?, string?> callback) {
@@ -41,15 +32,18 @@ void GetHostEntryAsync(string hostName, Action<string?, string?> callback) {
             var hostEntry = Dns.EndGetHostEntry(asyncResult);
             var ipAddresses = hostEntry.AddressList;
 
-            var formattedAddresses = string.Join(Environment.NewLine, ipAddresses.Select(
-                address => address.ToString()
-            ));
+            var formattedResults =
+                $"{Environment.NewLine}{hostName} has such ip addresses:{Environment.NewLine}" +
+                string.Join(Environment.NewLine, ipAddresses.Select(
+                    address => address.ToString()
+                ));
 
-            callback(null, formattedAddresses);
+
+            callback(null, formattedResults);
         }
 
         catch (Exception e) {
-            callback($"Exception was thrown. {e}", null);
+            callback($"{Environment.NewLine}Exception was thrown. {e}{Environment.NewLine}", null);
         }
     }, null);
 }
