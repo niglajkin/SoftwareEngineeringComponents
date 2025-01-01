@@ -10,13 +10,13 @@ public static class ArrayExtension {
 
         var outputArray = new TOutput[arraysLength];
         var occuredExceptions = new List<Exception>();
-        var tasks = new List<Task>();
-
+        var tasks = new Task[arraysLength];
+        
         for (var i = 0; i < arraysLength; i++) {
             var capturedIndex = i;
             var currentElement = inputArray[capturedIndex];
-
-            var task = getAsyncTask(currentElement).ContinueWith(resultTask => {
+            
+            tasks[capturedIndex] = getAsyncTask(currentElement).ContinueWith(resultTask => {
                 if (resultTask.IsFaulted) {
                     var exceptions = resultTask.Exception.InnerExceptions;
                     occuredExceptions.AddRange(exceptions);
@@ -25,8 +25,6 @@ public static class ArrayExtension {
 
                 outputArray[capturedIndex] = resultTask.Result;
             });
-
-            tasks.Add(task);
         }
         
         return Task.WhenAll(tasks).ContinueWith(_ => (outputArray, occuredExceptions));
