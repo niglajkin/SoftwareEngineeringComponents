@@ -7,6 +7,11 @@ numbers.AsyncMap(DoubleAsync).ContinueWith(PrintResult);
 
 Console.ReadKey();
 
+//Results:
+//{ 1, 2, 3, 4, 5} => 2, 4, 6, 8, 10
+//{-1, 2, 3, -1, 5} => 
+// Test exception was thrown
+// Test exception was thrown
 return;
 
 Task<int> DoubleAsync(int n) => Task.Delay(Random.Shared.Next(2000, 5000)).ContinueWith(_ => {

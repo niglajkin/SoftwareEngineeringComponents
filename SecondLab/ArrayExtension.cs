@@ -1,42 +1,19 @@
 namespace SecondLab;
 
 public static class ArrayExtension {
-    
-    public static Task<(TOutput[], List<Exception>)> AsyncMapFirstVersion<TInput, TOutput>(
-        this TInput[] inputArray,
-        Func<TInput, Task<TOutput>> getAsyncTask
-    ) {
-        var arraysLength = inputArray.Length;
-    
-        var outputArray = new TOutput[arraysLength];
-        var occuredExceptions = new List<Exception>();
-        var tasks = new Task[arraysLength];
-        
-        for (var i = 0; i < arraysLength; i++) {
-            var capturedIndex = i;
-            var currentElement = inputArray[capturedIndex];
-            
-            tasks[capturedIndex] = getAsyncTask(currentElement).ContinueWith(resultTask => {
-                if (resultTask.IsFaulted) {
-                    var exceptions = resultTask.Exception.InnerExceptions;
-                    occuredExceptions.AddRange(exceptions);
-                    return;
-                }
-    
-                outputArray[capturedIndex] = resultTask.Result;
-            });
-        }
-        
-        return Task.WhenAll(tasks).ContinueWith(_ => (outputArray, occuredExceptions));
-    }
-    
     public static Task<TOutput[]> AsyncMap<TInput, TOutput>(
         this TInput[] inputArray,
         Func<TInput, Task<TOutput>> getAsyncTask
     ) {
-        var newTasks = inputArray.Select(getAsyncTask).ToArray();
+        var arraysLength = inputArray.Length;
+        var tasks = new Task<TOutput>[arraysLength];
+        
+        for (var i = 0; i < arraysLength; i++) {
+            var currentElement = inputArray[i];
+            tasks[i] = getAsyncTask(currentElement);
+        }
 
-        return Task.WhenAll(newTasks);
+        return Task.WhenAll(tasks);
     }
     
 }
