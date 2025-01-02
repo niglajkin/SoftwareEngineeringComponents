@@ -17,8 +17,12 @@ Console.ReadKey();
 
 return;
 
-Task<int> DoubleAsync(int n) => Task.Delay(Random.Shared.Next(2000, 3000)).ContinueWith(_ => {
+async Task<int> DoubleAsync(int n) {
     if (n == -1) throw new ArgumentException("Test exception was thrown");
+    
+    var delay = Random.Shared.Next(2000, 3000);
+    await Task.Delay(delay);
+    
     return n * 2;
-});
+}
 
