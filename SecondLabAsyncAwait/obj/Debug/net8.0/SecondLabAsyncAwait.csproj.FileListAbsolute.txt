@@ -1,0 +1,15 @@
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\bin\Debug\net8.0\SecondLabAsyncAwait.exe
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\bin\Debug\net8.0\SecondLabAsyncAwait.deps.json
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\bin\Debug\net8.0\SecondLabAsyncAwait.runtimeconfig.json
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\bin\Debug\net8.0\SecondLabAsyncAwait.dll
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\bin\Debug\net8.0\SecondLabAsyncAwait.pdb
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\obj\Debug\net8.0\SecondLabAsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\obj\Debug\net8.0\SecondLabAsyncAwait.AssemblyInfoInputs.cache
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\obj\Debug\net8.0\SecondLabAsyncAwait.AssemblyInfo.cs
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\obj\Debug\net8.0\SecondLabAsyncAwait.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\obj\Debug\net8.0\SecondLabAsyncAwait.sourcelink.json
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\obj\Debug\net8.0\SecondLabAsyncAwait.dll
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\obj\Debug\net8.0\refint\SecondLabAsyncAwait.dll
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\obj\Debug\net8.0\SecondLabAsyncAwait.pdb
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\obj\Debug\net8.0\SecondLabAsyncAwait.genruntimeconfig.cache
+D:\RiderProjects\SoftwareEngineeringComponents\SecondLabAsyncAwait\obj\Debug\net8.0\ref\SecondLabAsyncAwait.dll

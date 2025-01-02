@@ -1,0 +1,15 @@
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\bin\Debug\net8.0\ThirdLab.exe
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\bin\Debug\net8.0\ThirdLab.deps.json
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\bin\Debug\net8.0\ThirdLab.runtimeconfig.json
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\bin\Debug\net8.0\ThirdLab.dll
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\bin\Debug\net8.0\ThirdLab.pdb
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\obj\Debug\net8.0\ThirdLab.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\obj\Debug\net8.0\ThirdLab.AssemblyInfoInputs.cache
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\obj\Debug\net8.0\ThirdLab.AssemblyInfo.cs
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\obj\Debug\net8.0\ThirdLab.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\obj\Debug\net8.0\ThirdLab.sourcelink.json
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\obj\Debug\net8.0\ThirdLab.dll
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\obj\Debug\net8.0\refint\ThirdLab.dll
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\obj\Debug\net8.0\ThirdLab.pdb
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\obj\Debug\net8.0\ThirdLab.genruntimeconfig.cache
+D:\RiderProjects\SoftwareEngineeringComponents\ThirdLab\obj\Debug\net8.0\ref\ThirdLab.dll

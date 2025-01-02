@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondLab", "SecondLab\Seco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondLabAsyncAwait", "SecondLabAsyncAwait\SecondLabAsyncAwait.csproj", "{829BAD0E-F18D-4C6B-A4F6-54C42F417ADC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdLab", "ThirdLab\ThirdLab.csproj", "{E9E96893-EA69-42D1-ADAF-5D9E45920781}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{829BAD0E-F18D-4C6B-A4F6-54C42F417ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{829BAD0E-F18D-4C6B-A4F6-54C42F417ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{829BAD0E-F18D-4C6B-A4F6-54C42F417ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E96893-EA69-42D1-ADAF-5D9E45920781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E96893-EA69-42D1-ADAF-5D9E45920781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E96893-EA69-42D1-ADAF-5D9E45920781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E96893-EA69-42D1-ADAF-5D9E45920781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

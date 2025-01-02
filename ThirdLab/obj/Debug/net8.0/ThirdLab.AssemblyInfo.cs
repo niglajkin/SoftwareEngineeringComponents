@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SecondLabAsyncAwait")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ThirdLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7358618e5b11050da17ba81b48e0dd4297c1e794")]
-[assembly: System.Reflection.AssemblyProductAttribute("SecondLabAsyncAwait")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SecondLabAsyncAwait")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62f62f6632fbbc02a1130a6dbda8d185cb8130e2")]
+[assembly: System.Reflection.AssemblyProductAttribute("ThirdLab")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ThirdLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
