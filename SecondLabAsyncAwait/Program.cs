@@ -2,7 +2,7 @@
 
 Console.WriteLine("App is running");
 
-var numbers = new[] { -1, -1, 3, 4, 5};
+var numbers = new[] { 1, 2, 3, 4, 5};
 
 try {
     var newNumbers = await numbers.AsyncMap(DoubleAsync);
