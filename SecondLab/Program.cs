@@ -1,15 +1,9 @@
-﻿using System.Collections;
-using SecondLab;
+﻿using SecondLab;
 
 Console.WriteLine("App is running");
 
 var numbers = new[] { 1, 2, 3, 4, 5};
-numbers.AsyncMap(DoubleAsync).ContinueWith(PrintResult); // 2 4 6 8 10
-
-var willThrowErrors = new[] { -1, -1, 2 };
-willThrowErrors.AsyncMap(DoubleAsync).ContinueWith(PrintResult);
-// 1)Test exception was thrown
-// 2)Test exception was thrown
+numbers.AsyncMap(DoubleAsync).ContinueWith(PrintResult);
 
 Console.ReadKey();
 
@@ -20,18 +14,17 @@ Task<int> DoubleAsync(int n) => Task.Delay(Random.Shared.Next(2000, 5000)).Conti
     return n * 2;
 });
 
-void PrintResult(Task<(int[], List<Exception>)> task) {
-    var (newNumbers, exceptions) = task.Result;
-    
-    var print = (IEnumerable collection, string separator) => {
-        foreach (var element in collection) {
-            Console.Write($"{element}{separator}");
-        }
-    };
-
-    if (exceptions.Count != 0) {
-        var messages = exceptions.Select((e, i) => $"{i + 1}){e.Message}");
-        print(messages, Environment.NewLine);
+void PrintResult(Task<int[]> task) {
+    if (task.IsFaulted) {
+        task.Exception.Handle(e => {
+            Console.WriteLine(e.Message);
+            return true;
+        });
     }
-    else print(newNumbers, " ");
+
+    else {
+        var newNumbers = task.Result;
+        var stringNewNumbers = string.Join(", ",newNumbers);
+        Console.WriteLine(stringNewNumbers);
+    }
 }
