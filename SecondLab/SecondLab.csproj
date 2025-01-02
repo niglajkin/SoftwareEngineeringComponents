@@ -7,4 +7,15 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="obj\Debug\net8.0\apphost.exe" />
+      <Content Include="obj\Debug\net8.0\SecondLab.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net8.0\SecondLab.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net8.0\SecondLab.dll" />
+      <Content Include="obj\Debug\net8.0\SecondLab.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net8.0\SecondLab.pdb" />
+      <Content Include="obj\Debug\net8.0\SecondLab.sourcelink.json" />
+      <Content Include="obj\rider.project.model.nuget.info" />
+    </ItemGroup>
+
 </Project>

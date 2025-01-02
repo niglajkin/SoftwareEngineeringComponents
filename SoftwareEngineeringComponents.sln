@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLab", "FirstLab\FirstL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondLab", "SecondLab\SecondLab.csproj", "{0484BA09-2881-4B72-A692-7D277D5C5779}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondLabAsyncAwait", "SecondLabAsyncAwait\SecondLabAsyncAwait.csproj", "{829BAD0E-F18D-4C6B-A4F6-54C42F417ADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0484BA09-2881-4B72-A692-7D277D5C5779}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0484BA09-2881-4B72-A692-7D277D5C5779}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0484BA09-2881-4B72-A692-7D277D5C5779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829BAD0E-F18D-4C6B-A4F6-54C42F417ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829BAD0E-F18D-4C6B-A4F6-54C42F417ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829BAD0E-F18D-4C6B-A4F6-54C42F417ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829BAD0E-F18D-4C6B-A4F6-54C42F417ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
